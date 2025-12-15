@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-  <BrowserRouter>
+  <BrowserRouter basename="/adhikarid_exam2_frontend">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contacts/:name" element={<ViewContact />} />

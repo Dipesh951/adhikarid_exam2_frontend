@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Dipesh951.github.io/adhikarid_exam2_frontend",
+  "homepage": "https://Dipesh951.github.io/adhikarid_exam2_frontend/",
 
   "scripts": {
     "dev": "vite",
