@@ -1,0 +1,277 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 22px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-row input {
+  padding: 10px;
+  width: 180px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.input-row input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.add-btn {
+  background-color: #6366f1;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-btn:hover {
+  background-color: #4f46e5;
+}
+
+.contact-card {
+  background-color: #1e1e1e;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.view-btn {
+  background-color: #3b82f6;
+  color: white;
+}
+.view-btn:hover {
+  background-color: #2563eb;
+}
+
+.update-btn {
+  background-color: #f59e0b;
+  color: black;
+}
+.update-btn:hover {
+  background-color: #d97706;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  color: white;
+}
+.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+/* Create Contact Form */
+.create-form {
+  margin-bottom: 20px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-field {
+  padding: 10px;
+  width: 170px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #1e1e1e;
+  color: white;
+  font-size: 14px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.add-btn {
+  background-color: #6366f1;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background-color: #4f46e5;
+}
+
+/* View Contact Page */
+.view-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.view-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.view-card {
+  background-color: #1e1e1e;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.view-card p {
+  margin: 8px 0;
+}
+
+.back-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 16px;
+}
+
+.back-btn:hover {
+  background-color: #2563eb;
+}
+
+.loading-text {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+/* Edit Contact Page */
+.edit-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.edit-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.edit-form {
+  background-color: #1e1e1e;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 16px;
+}
+
+.edit-input:focus {
+  outline: none;
+  border-color: #6366f1;
+}
+
+.update-btn {
+  background-color: #f59e0b;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.update-btn:hover {
+  background-color: #d97706;
+}
+
+.back-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 16px;
+}
+
+.back-btn:hover {
+  background-color: #2563eb;
+}
